@@ -82,3 +82,9 @@ body{
     75%{ transform: translateX(-5px); }
     100%{ transform: translateX(0px); }
 }
+@media (max-width: 500px) {
+    .container{
+        width: 90%;
+        padding: 20px 15px;
+    }
+}
